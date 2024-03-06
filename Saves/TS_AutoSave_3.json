@@ -1,9 +1,11 @@
 {
   "SaveName": "Custom",
-  "EpochTime": 1707918441,
-  "Date": "2/14/2024 2:47:21 PM",
+  "EpochTime": 1709707364,
+  "Date": "3/6/2024 7:42:44 AM",
   "VersionNumber": "v13.2.2",
   "GameMode": "Custom",
+  "GameType": "",
+  "GameComplexity": "",
   "Tags": [],
   "Gravity": 0.5,
   "PlayArea": 0.5,
@@ -208,7 +210,8 @@
     "Reverse": false,
     "SkipEmpty": false,
     "DisableInteractions": false,
-    "PassTurns": true
+    "PassTurns": true,
+    "TurnColor": ""
   },
   "DecalPallet": [],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
@@ -364,7 +367,7 @@
         "posY": 3.54391432,
         "posZ": 15.1422806,
         "rotX": 0.0,
-        "rotY": 225.0,
+        "rotY": 224.999985,
         "rotZ": 0.0,
         "scaleX": 11.6554174,
         "scaleY": 9.17449951,
@@ -646,12 +649,12 @@
       "GUID": "b235af",
       "Name": "Die_6",
       "Transform": {
-        "posX": -1.5908699,
-        "posY": 1.29020011,
-        "posZ": -12.3816013,
-        "rotX": 3.80624333E-05,
-        "rotY": 0.002960533,
-        "rotZ": -2.29388879E-05,
+        "posX": -1.59086978,
+        "posY": 1.29020131,
+        "posZ": -12.3816023,
+        "rotX": 1.41220244E-05,
+        "rotY": 0.00301472284,
+        "rotZ": -3.37525853E-05,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -742,12 +745,12 @@
       "GUID": "9fe6f4",
       "Name": "Die_6",
       "Transform": {
-        "posX": 1.774748,
-        "posY": 1.29020071,
+        "posX": 1.77474809,
+        "posY": 1.29020154,
         "posZ": 12.2855749,
-        "rotX": 8.753563E-05,
-        "rotY": -6.377882E-05,
-        "rotZ": -2.21149057E-05,
+        "rotX": -1.98226644E-05,
+        "rotY": -9.686063E-05,
+        "rotZ": -1.160489E-05,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -839,10 +842,10 @@
       "GUID": "ce4f31",
       "Name": "DeckCustom",
       "Transform": {
-        "posX": -2.56377035E-08,
-        "posY": 1.90879083,
-        "posZ": -4.754846E-08,
-        "rotX": 4.53422263E-06,
+        "posX": -4.589367E-08,
+        "posY": 1.908791,
+        "posZ": -7.69059341E-08,
+        "rotX": 9.876669E-06,
         "rotY": 180.0,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -989,6 +992,8 @@
           "Hands": true,
           "CardID": 100,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1034,6 +1039,8 @@
           "Hands": true,
           "CardID": 101,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1079,6 +1086,8 @@
           "Hands": true,
           "CardID": 102,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1124,6 +1133,8 @@
           "Hands": true,
           "CardID": 103,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1169,6 +1180,8 @@
           "Hands": true,
           "CardID": 104,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1214,6 +1227,8 @@
           "Hands": true,
           "CardID": 105,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1259,6 +1274,8 @@
           "Hands": true,
           "CardID": 106,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1304,6 +1321,8 @@
           "Hands": true,
           "CardID": 107,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1349,6 +1368,8 @@
           "Hands": true,
           "CardID": 108,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1394,6 +1415,8 @@
           "Hands": true,
           "CardID": 109,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1439,6 +1462,8 @@
           "Hands": true,
           "CardID": 110,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1484,6 +1509,8 @@
           "Hands": true,
           "CardID": 111,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1529,6 +1556,8 @@
           "Hands": true,
           "CardID": 112,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1574,6 +1603,8 @@
           "Hands": true,
           "CardID": 113,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1619,6 +1650,8 @@
           "Hands": true,
           "CardID": 114,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1664,6 +1697,8 @@
           "Hands": true,
           "CardID": 115,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1709,6 +1744,8 @@
           "Hands": true,
           "CardID": 116,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1754,6 +1791,8 @@
           "Hands": true,
           "CardID": 117,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1799,6 +1838,8 @@
           "Hands": true,
           "CardID": 118,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1844,6 +1885,8 @@
           "Hands": true,
           "CardID": 119,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1889,6 +1932,8 @@
           "Hands": true,
           "CardID": 120,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1934,6 +1979,8 @@
           "Hands": true,
           "CardID": 121,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -1979,6 +2026,8 @@
           "Hands": true,
           "CardID": 122,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2024,6 +2073,8 @@
           "Hands": true,
           "CardID": 123,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2069,6 +2120,8 @@
           "Hands": true,
           "CardID": 124,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2114,6 +2167,8 @@
           "Hands": true,
           "CardID": 125,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2159,6 +2214,8 @@
           "Hands": true,
           "CardID": 126,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2204,6 +2261,8 @@
           "Hands": true,
           "CardID": 127,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2249,6 +2308,8 @@
           "Hands": true,
           "CardID": 128,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2294,6 +2355,8 @@
           "Hands": true,
           "CardID": 129,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2339,6 +2402,8 @@
           "Hands": true,
           "CardID": 130,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2384,6 +2449,8 @@
           "Hands": true,
           "CardID": 131,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2429,6 +2496,8 @@
           "Hands": true,
           "CardID": 132,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2474,6 +2543,8 @@
           "Hands": true,
           "CardID": 133,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2519,6 +2590,8 @@
           "Hands": true,
           "CardID": 134,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2564,6 +2637,8 @@
           "Hands": true,
           "CardID": 135,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2609,6 +2684,8 @@
           "Hands": true,
           "CardID": 136,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2654,6 +2731,8 @@
           "Hands": true,
           "CardID": 137,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2699,6 +2778,8 @@
           "Hands": true,
           "CardID": 138,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2744,6 +2825,8 @@
           "Hands": true,
           "CardID": 139,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2789,6 +2872,8 @@
           "Hands": true,
           "CardID": 140,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2834,6 +2919,8 @@
           "Hands": true,
           "CardID": 141,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2879,6 +2966,8 @@
           "Hands": true,
           "CardID": 142,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2924,6 +3013,8 @@
           "Hands": true,
           "CardID": 143,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -2969,6 +3060,8 @@
           "Hands": true,
           "CardID": 144,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3014,6 +3107,8 @@
           "Hands": true,
           "CardID": 145,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3059,6 +3154,8 @@
           "Hands": true,
           "CardID": 146,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3104,6 +3201,8 @@
           "Hands": true,
           "CardID": 147,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3149,6 +3248,8 @@
           "Hands": true,
           "CardID": 148,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3194,6 +3295,8 @@
           "Hands": true,
           "CardID": 149,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3239,6 +3342,8 @@
           "Hands": true,
           "CardID": 150,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3284,6 +3389,8 @@
           "Hands": true,
           "CardID": 151,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
@@ -3329,6 +3436,8 @@
           "Hands": true,
           "CardID": 152,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         }
@@ -3338,12 +3447,12 @@
       "GUID": "3509b0",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": 0.12932,
-        "posY": 0.9618322,
+        "posX": 0.129319847,
+        "posY": 0.9618336,
         "posZ": -11.6819353,
-        "rotX": 3.293321E-05,
-        "rotY": -5.35618638E-05,
-        "rotZ": -5.008584E-05,
+        "rotX": 5.63152753E-05,
+        "rotY": -0.000116028525,
+        "rotZ": -1.11824893E-05,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3384,12 +3493,12 @@
       "GUID": "7b7b4b",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": -7.064468,
-        "posY": 1.6540643,
-        "posZ": -10.7413406,
-        "rotX": 296.622162,
-        "rotY": 179.97963,
-        "rotZ": 180.4378,
+        "posX": -6.991471,
+        "posY": 1.63454866,
+        "posZ": -9.148193,
+        "rotX": 1.67045437E-05,
+        "rotY": 179.976837,
+        "rotZ": 1.28532529E-05,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3430,12 +3539,12 @@
       "GUID": "cccb85",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": -11.7095079,
-        "posY": 0.961833537,
-        "posZ": 0.0510282479,
-        "rotX": 3.588809E-05,
-        "rotY": -6.540422E-08,
-        "rotZ": 2.270504E-05,
+        "posX": -9.48122,
+        "posY": 1.63454938,
+        "posZ": -0.5519774,
+        "rotX": -2.2782574E-06,
+        "rotY": 2.39203546E-05,
+        "rotZ": -3.95537336E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3476,12 +3585,12 @@
       "GUID": "8ff64f",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": -10.1812668,
+        "posX": -6.81281853,
         "posY": 1.63454986,
-        "posZ": 7.45514774,
-        "rotX": 1.49254419E-07,
-        "rotY": -1.98880953E-05,
-        "rotZ": 6.209869E-05,
+        "posZ": 6.70524549,
+        "rotX": 2.357799E-05,
+        "rotY": -1.696799E-06,
+        "rotZ": 1.62750553E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3522,12 +3631,12 @@
       "GUID": "8eb194",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": 0.009181455,
-        "posY": 0.96183306,
-        "posZ": 12.2497015,
-        "rotX": 2.96381659E-05,
-        "rotY": 7.666095E-05,
-        "rotZ": 4.99090856E-05,
+        "posX": 0.108597979,
+        "posY": 1.63455009,
+        "posZ": 9.0066185,
+        "rotX": 1.95600728E-06,
+        "rotY": 9.134802E-05,
+        "rotZ": 2.16778653E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3568,12 +3677,12 @@
       "GUID": "919b13",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": 10.0475769,
-        "posY": 1.63454962,
-        "posZ": 7.36881542,
-        "rotX": -2.39123324E-06,
-        "rotY": -4.29902419E-10,
-        "rotZ": -3.2683522E-07,
+        "posX": 6.76337957,
+        "posY": 1.63454986,
+        "posZ": 6.298309,
+        "rotX": 2.68409221E-05,
+        "rotY": -4.24182326E-06,
+        "rotZ": -1.824275E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3614,12 +3723,12 @@
       "GUID": "5a8fc5",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": 12.2669716,
-        "posY": 0.9618329,
-        "posZ": -0.172487333,
-        "rotX": 1.81164414E-05,
-        "rotY": 3.69248919E-05,
-        "rotZ": -4.91386636E-05,
+        "posX": 8.922516,
+        "posY": 1.63454914,
+        "posZ": -1.22988653,
+        "rotX": -2.549232E-06,
+        "rotY": -1.02098484E-05,
+        "rotZ": -9.274782E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3660,12 +3769,12 @@
       "GUID": "73b298",
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": 7.14909649,
-        "posY": 1.63454866,
-        "posZ": -10.164772,
-        "rotX": -4.4710564E-06,
-        "rotY": 4.18296077E-05,
-        "rotZ": 6.770142E-07,
+        "posX": 6.71880054,
+        "posY": 1.6345489,
+        "posZ": -8.461638,
+        "rotX": 3.04465284E-05,
+        "rotY": 3.66967E-05,
+        "rotZ": 9.544931E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
