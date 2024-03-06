@@ -635,7 +635,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "Art/board.png",
+        "ImageURL": "https://github.com/alanhaugen/Tabletop-Simulator/blob/main/Art/board.png?raw=true",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 1.0
