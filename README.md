@@ -1,6 +1,10 @@
 # Boardgame
 
-Clone this directory into Documents/My Games/Tabletop Simulator
+Clone this directory into Documents/My Games/
+
+Rename "Tabletop Simulator" to "Tabletop Simualtor_old"
+
+Rename "Tabletop-Simulator" to "Tabletop Simulator"
 
 Please refer to the following document if you get stuck: https://kb.tabletopsimulator.com/custom-content/importing-mods/
 
