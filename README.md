@@ -1,8 +1,8 @@
 # Boardgame
 
-Clone this directory into Documents/My Games/
+Clone this directory into "~/Documents/My Games/"
 
-Rename "Tabletop Simulator" to "Tabletop Simualtor_old"
+Rename "Tabletop Simulator" to "Tabletop Simualator_old"
 
 Rename "Tabletop-Simulator" to "Tabletop Simulator"
 
