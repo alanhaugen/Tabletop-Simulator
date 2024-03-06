@@ -35,3 +35,6 @@ by Northcliffe is licensed under the Creative Commons - Attribution license. The
 
 Low Poly Stylized Gemstone
 by Northcliffe is licensed under the Creative Commons - Attribution license. https://sketchfab.com/3d-models/low-poly-stylized-gemstone-2a214ed3eff54148a86229ea5bb4ff31
+
+Dragon Egg
+by SkinRender is licensed under the Creative Commons - Attribution license. https://sketchfab.com/3d-models/dragon-egg-95f90e93a7cc4bce8e813411e0c53483
