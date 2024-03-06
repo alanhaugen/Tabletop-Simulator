@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Stylized Gemstone
+* source:	https://sketchfab.com/3d-models/low-poly-stylized-gemstone-2a214ed3eff54148a86229ea5bb4ff31
+* author:	Discover (https://sketchfab.com/Discovered)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Stylized Gemstone" (https://sketchfab.com/3d-models/low-poly-stylized-gemstone-2a214ed3eff54148a86229ea5bb4ff31) by Discover (https://sketchfab.com/Discovered) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
