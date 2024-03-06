@@ -2,7 +2,7 @@
 .DS_Store
 
 # Krita backup files
-*.kra~
+*~
 
 # Tabletop simulator 
 Saves/steam_autocloud.vdf
