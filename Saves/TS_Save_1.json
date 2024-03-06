@@ -1,5 +1,5 @@
 {
-  "SaveName": "EggHunt",
+  "SaveName": "Dwarves - Gem Chase",
   "EpochTime": 1707913678,
   "Date": "2/14/2024 1:27:58 PM",
   "VersionNumber": "v13.2.2",
@@ -635,7 +635,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/2494500898685401517/F23D1B531C2D3ECB99028BB576961169690C841D/",
+        "ImageURL": "Art/board.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 1.0

@@ -1,6 +1,10 @@
 # MacOS files
-
 .DS_Store
 
 # Krita backup files
 *.kra~
+
+# Generated files
+DLC
+Mods
+Screenshots
