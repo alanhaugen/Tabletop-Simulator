@@ -2,7 +2,7 @@
 
 Clone this directory into "~/Documents/My Games/"
 
-Rename "Tabletop Simulator" to "Tabletop Simualator_old"
+Rename "Tabletop Simulator" to "Tabletop Simulator_old"
 
 Rename "Tabletop-Simulator" to "Tabletop Simulator"
 
