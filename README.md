@@ -6,7 +6,7 @@ Rename "Tabletop Simulator" to "Tabletop Simulator_old"
 
 Rename "Tabletop-Simulator" to "Tabletop Simulator"
 
-Open Tabletop Simulator. Press Create -> Singleplayer -> Save & Load -> EggHunt (1)
+Open Tabletop Simulator. Press Create -> Singleplayer -> Save & Load -> Dwarves - Gem Chase -> Load
 
 To write scripts, go to Modding (top of the window) -> Scripting
 
