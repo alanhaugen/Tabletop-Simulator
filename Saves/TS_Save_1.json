@@ -213,7 +213,7 @@
     "PassTurns": true
   },
   "DecalPallet": [],
-  "LuaScript": "--[[ See documentation: https://api.tabletopsimulator.com/ --]]\n\nfunction exampleFunction(stringToPrint)\n    print(stringToPrint)\nend\n\nfunction onLoad()\n    exampleFunction(\"Hello, world\")\nend\n\nfunction onUpdate()\nend",
+  "LuaScript": "--https://api.tabletopsimulator.com/\n--https://github.com/alanhaugen/Tabletop-Simulator\n\nfunction ShowLogo()\n    print(\"Dwarves - Gem Chase\")\nend\n\nfunction onLoad()\n    ShowLogo()\n\n    -- Show logo\n    -- Press Start Game\n    -- Select the amount of players\n    -- Indicate what color each player is\n    -- Setup players\n        -- Place player tokens in home base\n        -- Give random mission card\n        -- \n    -- Main loop\n        -- Player i Start\n        -- Detect action points being used\n            -- Card Get\n        -- Detect card use\n        -- Fighting\n        -- Next turn after 4 action points\n    -- Gameover - Player i wins!\nend\n\nfunction onUpdate()\nend",
   "LuaScriptState": "",
   "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
   "ObjectStates": [
