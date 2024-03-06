@@ -4,10 +4,10 @@
 # Krita backup files
 *.kra~
 
-# Generated files
+# Tabletop simulator 
+Saves/steam_autocloud.vdf
+Saves/SaveFileInfos.json
 DLC
 Mods
 Screenshots
 
-# Tabletop simulator id for steam
-Saves/steam_autocloud.vdf
