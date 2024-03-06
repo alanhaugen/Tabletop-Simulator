@@ -1,0 +1,13 @@
+# Blender 3.5.1 MTL File: 'gemstone.blend'
+# www.blender.org
+
+newmtl lambert1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+illum 2
+map_Kd C:/lambert1_baseColor.png
+map_Ke C:/lambert1_emissive.jpeg
+map_d C:/lambert1_baseColor.png
+map_Bump -bm 1.000000 C:/lambert1_normal.png
