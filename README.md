@@ -20,7 +20,7 @@ The board game made by Group 6 2024 for game design class, Hamar Game School
 
 Please refer to the following document if you get stuck: https://kb.tabletopsimulator.com/custom-content/importing-mods/
 
-You can also contact each group members, don't be afraid to ask and communicate
+You can also contact group members, don't be afraid to ask and communicate
 
 ## Scripting Resources
 
