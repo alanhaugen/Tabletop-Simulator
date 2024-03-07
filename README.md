@@ -36,7 +36,7 @@ Dwarf Warrior
 by Northcliffe is licensed under the Creative Commons - Attribution license. The model was changed to hold hands out and the axe was removed: https://sketchfab.com/3d-models/dwarf-warrior-b9fcc240bc0642649d39a8ca845b56aa
 
 Low Poly Stylized Gemstone
-by Northcliffe is licensed under the Creative Commons - Attribution license. https://sketchfab.com/3d-models/low-poly-stylized-gemstone-2a214ed3eff54148a86229ea5bb4ff31
+by Discover is licensed under the Creative Commons - Attribution license. https://sketchfab.com/3d-models/low-poly-stylized-gemstone-2a214ed3eff54148a86229ea5bb4ff31
 
 Dragon Egg
 by SkinRender is licensed under the Creative Commons - Attribution license. https://sketchfab.com/3d-models/dragon-egg-95f90e93a7cc4bce8e813411e0c53483
