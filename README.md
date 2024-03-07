@@ -14,7 +14,7 @@ The board game made by Group 6 2024 for game design class, Hamar Game School
 
 > Open Tabletop Simulator. Press Create -> Singleplayer -> Save & Load -> Dwarves - Gem Chase -> Load
 
-> To write scripts, go to Modding (top of the window) -> Scripting
+> To write scripts, select System in the chat and type ui_panel_main on, then go to Modding (top of the window) -> Scripting
 
 ## Help
 
