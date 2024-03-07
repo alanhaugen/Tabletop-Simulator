@@ -1,7 +1,7 @@
 {
   "SaveName": "Dwarves - Gem Chase",
-  "EpochTime": 1707913678,
-  "Date": "2/14/2024 1:27:58 PM",
+  "EpochTime": 1709838199,
+  "Date": "3/7/2024 8:03:19 PM",
   "VersionNumber": "v13.2.2",
   "GameMode": "Custom",
   "GameType": "",
@@ -9,7 +9,7 @@
   "Tags": [],
   "Gravity": 0.5,
   "PlayArea": 0.5,
-  "Table": "Table_Circular",
+  "Table": "Table_Hexagon",
   "Sky": "Sky_Downtown",
   "Note": "",
   "TabStates": {
@@ -204,13 +204,14 @@
     "labels": []
   },
   "Turns": {
-    "Enable": false,
+    "Enable": true,
     "Type": 0,
     "TurnOrder": [],
     "Reverse": false,
     "SkipEmpty": false,
     "DisableInteractions": false,
-    "PassTurns": true
+    "PassTurns": true,
+    "TurnColor": ""
   },
   "DecalPallet": [],
   "LuaScript": "--https://api.tabletopsimulator.com/\n--https://github.com/alanhaugen/Tabletop-Simulator\n\nfunction uibutton()\n    self.UI.hide(\"startmenu\")\nend\n\nfunction ShowLogo()\n    print(\"Dwarves - Gem Chase\")\nend\n\nfunction onLoad()\n    ShowLogo()\n\n    -- Show logo\n    -- Press Start Game\n    -- Select the amount of players\n    -- Indicate what color each player is\n    -- Setup players\n        -- Place player tokens in home base\n        -- Give random mission card\n        -- \n    -- Main loop\n        -- Player i Start\n        -- Detect action points being used\n            -- Card Get\n        -- Detect card use\n        -- Fighting\n        -- Next turn after 4 action points\n    -- Gameover - Player i wins!\nend\n\nfunction onUpdate()\nend",
@@ -224,382 +225,6 @@
     }
   ],
   "ObjectStates": [
-    {
-      "GUID": "14e38d",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": -15.2383461,
-        "posY": 3.54391336,
-        "posZ": -15.4102306,
-        "rotX": 0.0,
-        "rotY": 45.0000038,
-        "rotZ": 0.0,
-        "scaleX": 11.6554279,
-        "scaleY": 9.17449951,
-        "scaleZ": 6.76723957
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.856,
-        "g": 0.09999997,
-        "b": 0.09399996,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "Red",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "945179",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": -15.3520737,
-        "posY": 3.54391336,
-        "posZ": 15.104372,
-        "rotX": 0.0,
-        "rotY": 135.0,
-        "rotZ": 0.0,
-        "scaleX": 11.6554241,
-        "scaleY": 9.17449951,
-        "scaleZ": 6.767235
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.905,
-        "g": 0.898,
-        "b": 0.171999961,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "Yellow",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "20ccd9",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": 21.5308113,
-        "posY": 3.54391336,
-        "posZ": 0.0556364059,
-        "rotX": 0.0,
-        "rotY": 270.0,
-        "rotZ": 0.0,
-        "scaleX": 11.6554184,
-        "scaleY": 9.17449951,
-        "scaleZ": 6.767231
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.627,
-        "g": 0.124999978,
-        "b": 0.941,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "Purple",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "07c080",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": 15.3141718,
-        "posY": 3.54391432,
-        "posZ": 15.1422806,
-        "rotX": 0.0,
-        "rotY": 225.0,
-        "rotZ": 0.0,
-        "scaleX": 11.6554174,
-        "scaleY": 9.17449951,
-        "scaleZ": 6.76723337
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.117999978,
-        "g": 0.53,
-        "b": 1.0,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "Blue",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "c303fc",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": 4.29153442E-06,
-        "posY": 3.54391432,
-        "posZ": -21.4752445,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 11.6554127,
-        "scaleY": 9.1745,
-        "scaleZ": 6.76723146
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "White",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "a016e5",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": 0.0,
-        "posY": 3.54391432,
-        "posZ": 21.2933826,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
-        "scaleX": 11.6554127,
-        "scaleY": 9.17449951,
-        "scaleZ": 6.767229
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.191999972,
-        "g": 0.701,
-        "b": 0.167999953,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "Green",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "7687a1",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": 15.3141718,
-        "posY": 3.54391336,
-        "posZ": -15.0311728,
-        "rotX": 0.0,
-        "rotY": 315.0,
-        "rotZ": 0.0,
-        "scaleX": 11.6554136,
-        "scaleY": 9.17449951,
-        "scaleZ": 6.76723
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.96,
-        "g": 0.438999981,
-        "b": 0.807,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "Pink",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "65b75a",
-      "Name": "HandTrigger",
-      "Transform": {
-        "posX": -21.5687122,
-        "posY": 3.54391336,
-        "posZ": -0.209712029,
-        "rotX": 0.0,
-        "rotY": 90.0,
-        "rotZ": 0.0,
-        "scaleX": 11.6554279,
-        "scaleY": 9.17449951,
-        "scaleZ": 6.76723862
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.9559999,
-        "g": 0.39199996,
-        "b": 0.112999953,
-        "a": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "FogColor": "Orange",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
     {
       "GUID": "7d9325",
       "Name": "Custom_Board",
@@ -645,214 +270,21 @@
         "ImageURL": "https://github.com/alanhaugen/Tabletop-Simulator/blob/main/Art/board.png?raw=true",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
-        "WidthScale": 1.0
+        "WidthScale": 0.707258046
       },
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "b235af",
-      "Name": "Die_6",
-      "Transform": {
-        "posX": -1.5908699,
-        "posY": 1.29020011,
-        "posZ": -12.3816013,
-        "rotX": 3.80624333E-05,
-        "rotY": 0.002960533,
-        "rotZ": -2.29388879E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "MaterialIndex": 0,
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "RotationValues": [
-        {
-          "Value": "1",
-          "Rotation": {
-            "x": -90.0,
-            "y": 0.0,
-            "z": 0.0
-          }
-        },
-        {
-          "Value": "2",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          }
-        },
-        {
-          "Value": "3",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -90.0
-          }
-        },
-        {
-          "Value": "4",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 90.0
-          }
-        },
-        {
-          "Value": "5",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -180.0
-          }
-        },
-        {
-          "Value": "6",
-          "Rotation": {
-            "x": 90.0,
-            "y": 0.0,
-            "z": 0.0
-          }
-        }
-      ]
-    },
-    {
-      "GUID": "9fe6f4",
-      "Name": "Die_6",
-      "Transform": {
-        "posX": 1.774748,
-        "posY": 1.29020071,
-        "posZ": 12.2855749,
-        "rotX": 8.753563E-05,
-        "rotY": -6.377882E-05,
-        "rotZ": -2.21149057E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.149030268,
-        "g": 0.301973075,
-        "b": 0.4431491
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "AltSound": true,
-      "MaterialIndex": 1,
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "RotationValues": [
-        {
-          "Value": "1",
-          "Rotation": {
-            "x": -90.0,
-            "y": 0.0,
-            "z": 0.0
-          }
-        },
-        {
-          "Value": "2",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          }
-        },
-        {
-          "Value": "3",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -90.0
-          }
-        },
-        {
-          "Value": "4",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 90.0
-          }
-        },
-        {
-          "Value": "5",
-          "Rotation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -180.0
-          }
-        },
-        {
-          "Value": "6",
-          "Rotation": {
-            "x": 90.0,
-            "y": 0.0,
-            "z": 0.0
-          }
-        }
-      ]
-    },
-    {
       "GUID": "ce4f31",
       "Name": "DeckCustom",
       "Transform": {
-        "posX": -2.56377035E-08,
-        "posY": 1.90879083,
-        "posZ": -4.754846E-08,
-        "rotX": 4.53422263E-06,
-        "rotY": 180.0,
+        "posX": -8.686561,
+        "posY": 1.23607469,
+        "posZ": 3.246615,
+        "rotX": -2.68666972E-05,
+        "rotY": 179.999985,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -887,8 +319,8 @@
       "Hands": false,
       "SidewaysCard": false,
       "DeckIDs": [
-        100,
         101,
+        100,
         102,
         103,
         104,
@@ -957,62 +389,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "cb4318",
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.0,
-            "posY": 2.0,
-            "posZ": 0.0,
-            "rotX": -5.008956E-06,
-            "rotY": 180.0,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "Hands": true,
-          "CardID": 100,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "ContainedObjects": []
-        },
-        {
           "GUID": "58d9be",
           "Name": "Card",
           "Transform": {
-            "posX": 0.0,
-            "posY": 2.0,
-            "posZ": 0.0,
-            "rotX": -5.008956E-06,
-            "rotY": 180.0,
-            "rotZ": 180.0,
+            "posX": 0.005361745,
+            "posY": 2.08490515,
+            "posZ": -0.216424853,
+            "rotX": -0.0001312833,
+            "rotY": 179.996368,
+            "rotZ": 179.999817,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -1042,13 +427,82 @@
           "Sticky": true,
           "Tooltip": true,
           "GridProjection": false,
+          "HideWhenFaceDown": true,
           "Hands": true,
           "CardID": 101,
           "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2494500898685401517/F23D1B531C2D3ECB99028BB576961169690C841D/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/2494500898685401517/F23D1B531C2D3ECB99028BB576961169690C841D/",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
           "LuaScript": "",
           "LuaScriptState": "",
-          "XmlUI": "",
-          "ContainedObjects": []
+          "XmlUI": ""
+        },
+        {
+          "GUID": "cb4318",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.45508346,
+            "posY": 2.07527828,
+            "posZ": -0.180676758,
+            "rotX": -6.791461E-05,
+            "rotY": 179.99646,
+            "rotZ": 179.999939,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 100,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2494500898685401517/F23D1B531C2D3ECB99028BB576961169690C841D/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/2494500898685401517/F23D1B531C2D3ECB99028BB576961169690C841D/",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
         },
         {
           "GUID": "1ff76a",
@@ -3450,18 +2904,18 @@
       ]
     },
     {
-      "GUID": "3509b0",
-      "Name": "PlayerPawn",
+      "GUID": "c644bf",
+      "Name": "HandTrigger",
       "Transform": {
-        "posX": 0.12932,
-        "posY": 0.9618322,
-        "posZ": -11.6819353,
-        "rotX": 3.293321E-05,
-        "rotY": -5.35618638E-05,
-        "rotZ": -5.008584E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "posX": -13.6426306,
+        "posY": 3.57056236,
+        "posZ": -7.487546,
+        "rotX": 0.0,
+        "rotY": 60.0000038,
+        "rotZ": 0.0,
+        "scaleX": 10.2680759,
+        "scaleY": 6.633869,
+        "scaleZ": 4.893235
       },
       "Nickname": "",
       "Description": "",
@@ -3472,14 +2926,15 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.8602941,
-        "g": 0.8602941,
-        "b": 0.8602941
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
-      "Locked": false,
-      "Grid": true,
+      "Locked": true,
+      "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
       "MeasureMovement": false,
@@ -3490,24 +2945,24 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "MaterialIndex": 0,
+      "FogColor": "Red",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "7b7b4b",
-      "Name": "PlayerPawn",
+      "GUID": "908e20",
+      "Name": "HandTrigger",
       "Transform": {
-        "posX": -7.064468,
-        "posY": 1.6540643,
-        "posZ": -10.7413406,
-        "rotX": 296.622162,
-        "rotY": 179.97963,
-        "rotZ": 180.4378,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "posX": -13.3167524,
+        "posY": 3.57056236,
+        "posZ": 8.302005,
+        "rotX": 0.0,
+        "rotY": 120.000008,
+        "rotZ": 0.0,
+        "scaleX": 10.26808,
+        "scaleY": 6.633869,
+        "scaleZ": 4.8932333
       },
       "Nickname": "",
       "Description": "",
@@ -3518,14 +2973,15 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.838235259,
-        "g": 0.0,
-        "b": 0.0
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
-      "Locked": false,
-      "Grid": true,
+      "Locked": true,
+      "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
       "MeasureMovement": false,
@@ -3536,24 +2992,24 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "MaterialIndex": 1,
+      "FogColor": "Yellow",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "cccb85",
-      "Name": "PlayerPawn",
+      "GUID": "4d78d3",
+      "Name": "HandTrigger",
       "Transform": {
-        "posX": -11.7095079,
-        "posY": 0.961833537,
-        "posZ": 0.0510282479,
-        "rotX": 3.588809E-05,
-        "rotY": -6.540422E-08,
-        "rotZ": 2.270504E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "posX": 13.5726471,
+        "posY": 3.57056332,
+        "posZ": 7.748528,
+        "rotX": 0.0,
+        "rotY": 240.0,
+        "rotZ": 0.0,
+        "scaleX": 10.2680712,
+        "scaleY": 6.633869,
+        "scaleZ": 4.89323235
       },
       "Nickname": "",
       "Description": "",
@@ -3564,14 +3020,15 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.867647052,
-        "g": 0.520595551,
-        "b": 0.0
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
-      "Locked": false,
-      "Grid": true,
+      "Locked": true,
+      "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
       "MeasureMovement": false,
@@ -3582,24 +3039,24 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "MaterialIndex": 2,
+      "FogColor": "Blue",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "8ff64f",
-      "Name": "PlayerPawn",
+      "GUID": "363e5e",
+      "Name": "HandTrigger",
       "Transform": {
-        "posX": -10.1812668,
-        "posY": 1.63454986,
-        "posZ": 7.45514774,
-        "rotX": 1.49254419E-07,
-        "rotY": -1.98880953E-05,
-        "rotZ": 6.209869E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "posX": -9.536743E-07,
+        "posY": 3.57056332,
+        "posZ": -15.5326672,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 10.2680635,
+        "scaleY": 6.6338706,
+        "scaleZ": 4.89322853
       },
       "Nickname": "",
       "Description": "",
@@ -3610,14 +3067,15 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.7867647,
-        "g": 0.732506037,
-        "b": 0.0
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
-      "Locked": false,
-      "Grid": true,
+      "Locked": true,
+      "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
       "MeasureMovement": false,
@@ -3628,24 +3086,24 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "MaterialIndex": 3,
+      "FogColor": "White",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "8eb194",
-      "Name": "PlayerPawn",
+      "GUID": "8106a8",
+      "Name": "HandTrigger",
       "Transform": {
-        "posX": 0.009181455,
-        "posY": 0.96183306,
-        "posZ": 12.2497015,
-        "rotX": 2.96381659E-05,
-        "rotY": 7.666095E-05,
-        "rotZ": 4.99090856E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "posX": 0.00127696991,
+        "posY": 3.57056427,
+        "posZ": 15.5941267,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 10.2680683,
+        "scaleY": 6.633869,
+        "scaleZ": 4.89322948
       },
       "Nickname": "",
       "Description": "",
@@ -3656,14 +3114,15 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.6985294,
-        "b": 0.00481740525
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
-      "Locked": false,
-      "Grid": true,
+      "Locked": true,
+      "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
       "MeasureMovement": false,
@@ -3674,24 +3133,24 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "MaterialIndex": 4,
+      "FogColor": "Green",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "919b13",
-      "Name": "PlayerPawn",
+      "GUID": "e5b0ff",
+      "Name": "HandTrigger",
       "Transform": {
-        "posX": 10.0475769,
-        "posY": 1.63454962,
-        "posZ": 7.36881542,
-        "rotX": -2.39123324E-06,
-        "rotY": -4.29902419E-10,
-        "rotZ": -3.2683522E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
+        "posX": 13.6821451,
+        "posY": 3.57056427,
+        "posZ": -7.40765858,
+        "rotX": 0.0,
+        "rotY": 300.0,
+        "rotZ": 0.0,
+        "scaleX": 10.2680655,
+        "scaleY": 6.633869,
+        "scaleZ": 4.893227
       },
       "Nickname": "",
       "Description": "",
@@ -3702,14 +3161,15 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.1724138,
-        "b": 1.0
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
-      "Locked": false,
-      "Grid": true,
+      "Locked": true,
+      "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
       "MeasureMovement": false,
@@ -3720,99 +3180,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "MaterialIndex": 5,
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "5a8fc5",
-      "Name": "PlayerPawn",
-      "Transform": {
-        "posX": 12.2669716,
-        "posY": 0.9618329,
-        "posZ": -0.172487333,
-        "rotX": 1.81164414E-05,
-        "rotY": 3.69248919E-05,
-        "rotZ": -4.91386636E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.5099936,
-        "g": 0.0,
-        "b": 0.8308824
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "MaterialIndex": 6,
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "73b298",
-      "Name": "PlayerPawn",
-      "Transform": {
-        "posX": 7.14909649,
-        "posY": 1.63454866,
-        "posZ": -10.164772,
-        "rotX": -4.4710564E-06,
-        "rotY": 4.18296077E-05,
-        "rotZ": 6.770142E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.8602941,
-        "g": 0.0,
-        "b": 0.7653667
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "MaterialIndex": 7,
+      "FogColor": "Pink",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""

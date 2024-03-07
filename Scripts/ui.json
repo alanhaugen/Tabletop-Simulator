@@ -1,0 +1,8 @@
+  "XmlUI": "<!-- https://api.tabletopsimulator.com/ui/introUI/ -->\r\n\n<VerticalLayout id=\"startmenu\"><Image image=\"logo\" />\r\n<Button onClick=\"uibutton\">Start Game</Button><Button>Credits</Button><Button>Tutorial</Button> </VerticalLayout>",
+  "CustomUIAssets": [
+    {
+      "Type": 0,
+      "Name": "logo",
+      "URL": "https://github.com/alanhaugen/Tabletop-Simulator/blob/main/Art/logo.png?raw=true"
+    }
+  ],

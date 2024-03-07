@@ -1,13 +1,16 @@
 # MacOS files
 .DS_Store
 
+# Vim temp files
+*.swp
+
 # Krita backup files
 *~
 
 # Tabletop simulator 
-Saves/steam_autocloud.vdf
-Saves/SaveFileInfos.json
-Saves/TS_AutoSave*
+Saves/
+!Saves/dwarves.json
+!Saves/dwarves.png
 DLC
 Mods
 Screenshots
