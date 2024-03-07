@@ -1,5 +1,7 @@
 # Boardgame
 
+![Dwarves - Gem Chase logo](Art/logo.png)
+
 ## Dwarves - Gem Chase
 
 The board game made by Group 6 2024 for game design class, Hamar Game School
