@@ -1,7 +1,7 @@
 {
   "Presets": 6,
-  "ResX": 1920,
-  "ResY": 1200,
+  "ResX": 1024,
+  "ResY": 768,
   "Fullscreen": false,
   "VSync": false,
   "FullTextures": true,
