@@ -14,7 +14,7 @@ The board game made by Group 6 2024 for game design class, Hamar Game School
 
 > Rename "Tabletop-Simulator" to "Tabletop Simulator"
 
-> Open Tabletop Simulator. Press Create -> Singleplayer -> Save & Load -> Dwarves - Gem Chase -> Load
+> Launch Tabletop Simulator.exe via Steam. Press Create -> Singleplayer -> Save & Load -> Dwarves - Gem Chase -> Load
 
 > To write scripts, select System in the chat and type **ui_panel_main on**, then go to Modding (top of the window) -> Scripting
 
@@ -31,6 +31,20 @@ You can also contact group members, don't be afraid to ask and communicate.
 There is a good guide to scripting in Lua with Tabletop Simulator here: https://steamcommunity.com/sharedfiles/filedetails/?id=714904631
 
 There is also a official guide here: https://api.tabletopsimulator.com
+
+## How to change scripts
+
+The scripts used in the game are found in the Scripts folder. Scripts/main.lua nad Scripts/ui.xml will be used to generate the savefile Saves/dwarves.json
+
+To activate the build system, simply run make
+
+> make
+
+If you are new to unix, I recommend Git for Windows. Open bash shell, go to this directory and type the following to generate dwarves.json
+
+> mingw32-make.exe
+
+If you do not like unix, you can find other ways to write and modify the code.
 
 # Brief
 
