@@ -7,6 +7,9 @@
 # Krita backup files
 *~
 
+# Scipt intermediate
+intermediate*
+
 # Tabletop simulator 
 Saves/
 !Saves/dwarves.json
