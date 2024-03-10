@@ -15,12 +15,12 @@
 
 <VerticalLayout id="creditsmenu" padding="0 0 0 0">
     <Image image="innlogo" />
-    <Text fontSize="50" color="#FFFFFF">Herman Ibsen Aursø</Text>
-    <Text fontSize="50" color="#FFFFFF">Celina Gammelsæter</Text>
-    <Text fontSize="50" color="#FFFFFF">Thomas Carlsen</Text>
-    <Text fontSize="50" color="#FFFFFF">Nicholas Norgård</Text>
-    <Text fontSize="50" color="#FFFFFF">Alan Whitburn Haugen</Text>
-    <Text fontSize="50" color="#FFFFFF">This game was made for Game Design class 2024 at Inland Norway University of Applied Sciences.</Text>
+    <Text fontSize="75" color="#FFFFFF">Herman Ibsen Aursø</Text>
+    <Text fontSize="75" color="#FFFFFF">Celina Gammelsæter</Text>
+    <Text fontSize="75" color="#FFFFFF">Thomas Carlsen</Text>
+    <Text fontSize="75" color="#FFFFFF">Nicholas Norgård</Text>
+    <Text fontSize="75" color="#FFFFFF">Alan Whitburn Haugen</Text>
+    <Text fontSize="75" color="#FFFFFF">This game was made for Game Design class 2024 at Inland Norway University of Applied Sciences.</Text>
     <Button onClick="mainmenu">
         <Text fontSize="50">Back</Text>
     </Button>
