@@ -10,14 +10,21 @@ function playerbutton(numberOfPlayers)
     self.UI.hide("playermenu")
 end
 
-function ShowLogo()
-    print("Dwarves - Gem Chase")
+function creditsbutton()
+    self.UI.hide("startmenu")
+    self.UI.show("creditsmenu")
+end
+
+function mainmenu()
+    self.UI.hide("playermenu")
+    self.UI.hide("creditsmenu")
+    self.UI.show("startmenu")
 end
 
 function onLoad()
-    self.UI.hide("playermenu")
+    print("Dwarves - Gem Chase")
 
-    ShowLogo()
+    mainmenu();
 
     -- Select the amount of players
     -- Indicate what color each player is

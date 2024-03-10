@@ -1,17 +1,46 @@
 <!-- https://api.tabletopsimulator.com/ui/introUI/ -->
 
-<VerticalLayout id="startmenu">
+<VerticalLayout id="startmenu" padding="200 200 0 100">
     <Image image="logo" />
-    <Button onClick="startbutton">Start Game</Button>
-    <Button>Credits</Button>
-    <Button>Tutorial</Button>
+    <Button onClick="startbutton">
+        <Text fontSize="50">Start Game</Text>
+    </Button>
+    <Button onClick="creditsbutton">
+        <Text fontSize="50">Credits</Text>
+    </Button>
+    <Button>
+        <Text fontSize="50">Tutorial</Text>
+    </Button>
+</VerticalLayout>
+
+<VerticalLayout id="creditsmenu" padding="0 0 0 0">
+    <Image image="innlogo" />
+    <Text fontSize="50" color="#FFFFFF">Herman Ibsen Aursø</Text>
+    <Text fontSize="50" color="#FFFFFF">Celina Gammelsæter</Text>
+    <Text fontSize="50" color="#FFFFFF">Thomas Carlsen</Text>
+    <Text fontSize="50" color="#FFFFFF">Nicholas Norgård</Text>
+    <Text fontSize="50" color="#FFFFFF">Alan Whitburn Haugen</Text>
+    <Text fontSize="50" color="#FFFFFF">This game was made for Game Design class 2024 at Inland Norway University of Applied Sciences.</Text>
+    <Button onClick="mainmenu">
+        <Text fontSize="50">Back</Text>
+    </Button>
 </VerticalLayout>
 
 <VerticalLayout id="playermenu">
-    <Text fontSize="50">Select number of players</Text>
-    <Button onClick="playerbutton(6)">Six Players</Button>
-    <Button onClick="playerbutton(5)">Five Players</Button>
-    <Button onClick="playerbutton(4)">Four Players</Button>
-    <Button onClick="playerbutton(3)">Three Players</Button>
-    <Button onClick="playerbutton(2)">Two Players</Button>
+    <Text fontSize="50" color="#FFFFFF">Select number of players</Text>
+    <Button onClick="playerbutton(6)">
+        <Text fontSize="50">Six Players</Text>
+    </Button>
+    <Button onClick="playerbutton(5)">
+        <Text fontSize="50">Five Players</Text>
+    </Button>
+    <Button onClick="playerbutton(4)">
+        <Text fontSize="50">Four Players</Text>
+    </Button>
+    <Button onClick="playerbutton(3)">
+        <Text fontSize="50">Three Players</Text>
+    </Button>
+    <Button onClick="playerbutton(2)">
+        <Text fontSize="50">Two Players</Text>
+    </Button>
 </VerticalLayout>
