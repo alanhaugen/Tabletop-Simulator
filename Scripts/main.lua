@@ -1,9 +1,13 @@
 --https://api.tabletopsimulator.com/
 --https://github.com/alanhaugen/Tabletop-Simulator
 
-function uibutton()
+function startbutton()
     self.UI.hide("startmenu")
     self.UI.show("playermenu")
+end
+
+function playerbutton(numberOfPlayers)
+    self.UI.hide("playermenu")
 end
 
 function ShowLogo()

@@ -2,16 +2,16 @@
 
 <VerticalLayout id="startmenu">
     <Image image="logo" />
-    <Button onClick="uibutton">Start Game</Button>
+    <Button onClick="startbutton">Start Game</Button>
     <Button>Credits</Button>
     <Button>Tutorial</Button>
 </VerticalLayout>
 
 <VerticalLayout id="playermenu">
-	<Text fontSize="200">Select number of players</Text>
-    <Button>Six Players</Button>
-    <Button>Five Players</Button>
-    <Button>Four Players</Button>
-    <Button>Three Players</Button>
-    <Button>Two Players</Button>
+    <Text fontSize="50">Select number of players</Text>
+    <Button onClick="playerbutton(6)">Six Players</Button>
+    <Button onClick="playerbutton(5)">Five Players</Button>
+    <Button onClick="playerbutton(4)">Four Players</Button>
+    <Button onClick="playerbutton(3)">Three Players</Button>
+    <Button onClick="playerbutton(2)">Two Players</Button>
 </VerticalLayout>
