@@ -1,4 +1,4 @@
-.PONY: clean
+.PONY: clean run
 
 Saves/dwarves.json: Scripts/main.lua Scripts/head.json Scripts/ui.json Scripts/body.json Scripts/main.lua Scripts/ui.xml
 	echo -n '"LuaScript": "' > intermediateScript
@@ -10,6 +10,9 @@ Saves/dwarves.json: Scripts/main.lua Scripts/head.json Scripts/ui.json Scripts/b
 	echo '",' >> intermediateUI
 	cat Scripts/head.json intermediateScript intermediateUI Scripts/ui.json Scripts/body.json > Saves/dwarves.json 
 	dos2unix Saves/dwarves.json
+	/g/Steam/steamapps/common/Tabletop\\ Simulator/Tabletop\\ Simulator.exe
+
+run:
 	/g/Steam/steamapps/common/Tabletop\\ Simulator/Tabletop\\ Simulator.exe
 
 clean:
