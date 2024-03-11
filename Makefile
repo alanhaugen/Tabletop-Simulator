@@ -1,6 +1,10 @@
 .PONY: clean run
 
 Saves/dwarves.json: Scripts/main.lua Scripts/head.json Scripts/ui.json Scripts/body.json Scripts/main.lua Scripts/ui.lua Scripts/ui.xml
+ifneq (,$(wildcard ./Saves/dwarves.json))
+	cp Saves/dwarves.json Scripts/body.json
+	sed -i '1,226d' Scripts/body.json
+endif
 	echo -n '"LuaScript": "' > intermediateScript
 	awk -f Scripts/endline.awk Scripts/*.lua | sed -e 's/"/\\"/g' >> intermediateScript
 	echo '",' >> intermediateScript

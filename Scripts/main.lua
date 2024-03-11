@@ -4,7 +4,8 @@
 numberOfPlayers = 0 -- will be changed by playermenu, see ui.lua
 
 function setupBoard(numberOfPlayers_)
-    -- generate pieces for the players
+    -- remove non-player pieces
+    -- First, get the guids for the pieces
 end
 
 function onLoad()
