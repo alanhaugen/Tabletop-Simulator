@@ -22,9 +22,15 @@ The board game made by Group 6 2024 for game design class, Hamar Game School
 
 Please refer to the following document if you get stuck: https://kb.tabletopsimulator.com/custom-content/importing-mods/
 
+There is a great guide for how to use the different tools found in Tabletop Simulator (such as the snapping tool) here: https://kb.tabletopsimulator.com/game-tools/snap-point-tool/
+
 To run custom commands (such as **ui_panel_main on**) see this document: https://api.tabletopsimulator.com/systemconsole/ 
 
 You can also contact group members, don't be afraid to ask and communicate.
+
+## Loading custom 3D assets
+
+Open the main panel (**ui_panel_main on**), and select Objects and then Components. Select Custom, then Model. Select where you want the object on the virtual table, then press Escape to open an editing screen for the asset. Select the asset files, upload the assets to the cloud, and click Import.
 
 ## Scripting Resources
 

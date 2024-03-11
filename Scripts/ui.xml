@@ -2,7 +2,8 @@
 
 <VerticalLayout id="startmenu" padding="200 200 0 100">
     <Image image="logo" />
-    <Button onClick="startbutton">
+<!--    <Button onClick="startbutton"> -->
+    <Button onClick="playerbutton(0)">
         <Text fontSize="50">Start Game</Text>
     </Button>
     <Button onClick="creditsbutton">
