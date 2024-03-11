@@ -1,6 +1,6 @@
 .PONY: clean run
 
-Saves/dwarves.json: Scripts/main.lua Scripts/head.json Scripts/ui.json Scripts/body.json Scripts/main.lua Scripts/ui.xml
+Saves/dwarves.json: Scripts/main.lua Scripts/head.json Scripts/ui.json Scripts/body.json Scripts/main.lua Scripts/ui.lua Scripts/ui.xml
 	echo -n '"LuaScript": "' > intermediateScript
 	awk -f Scripts/endline.awk Scripts/*.lua | sed -e 's/"/\\"/g' >> intermediateScript
 	echo '",' >> intermediateScript

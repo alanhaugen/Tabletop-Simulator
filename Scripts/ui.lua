@@ -1,20 +1,26 @@
 function startbutton()
-    self.UI.hide("startmenu")
+    hideAll();
     self.UI.show("playermenu")
 end
 
-function playerbutton(numberOfPlayers)
-    self.UI.hide("playermenu")
+function playerbutton(numberOfPlayers_)
+    hideAll();
+    numberOfPlayers = numberOfPlayers
 end
 
 function creditsbutton()
-    self.UI.hide("startmenu")
+    hideAll();
     self.UI.show("creditsmenu")
 end
 
 function mainmenu()
+    hideAll();
+    self.UI.show("startmenu")
+end
+
+function hideAll()
     self.UI.hide("playermenu")
     self.UI.hide("creditsmenu")
-    self.UI.show("startmenu")
+    self.UI.hide("startmenu")
 end
 
