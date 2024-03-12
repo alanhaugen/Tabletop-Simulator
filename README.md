@@ -22,6 +22,8 @@ The board game made by Group 6 2024 for game design class, Hamar Game School
 
 Please refer to the following document if you get stuck: https://kb.tabletopsimulator.com/custom-content/importing-mods/
 
+This document is also helpful: https://kb.tabletopsimulator.com/getting-started/technical-info/
+
 There is a great guide for how to use the different tools found in Tabletop Simulator (such as the snapping tool) here: https://kb.tabletopsimulator.com/game-tools/snap-point-tool/
 
 To run custom commands (such as **ui_panel_main on**) see this document: https://api.tabletopsimulator.com/systemconsole/ 
