@@ -6,6 +6,7 @@ numberOfPlayers = 0 -- will be changed by playermenu, see ui.lua
 function setupBoard(numberOfPlayers_)
     -- remove non-player pieces
     -- First, get the guids for the pieces
+    -- Figure out what colours players have
 end
 
 function onLoad()
