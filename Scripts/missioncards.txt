@@ -1,47 +1,44 @@
-Samle
-	13 egg (5 spillere)
-	15 egg (4 spillere)
-17 egg (3 spillere)
-19 egg (2 spillere)
+Collect and possess
+	13 gems (5 players)
+	15 gems (4 players)
+	17 gems (3 players)
+	19 gems (2 players)
 
+Collect and possess
+	6 red gems (5 players)
+	8 red gems (4 players)
+	10 red gems (3 players)
+	12 red gems (2 players)
 
-Hent og ha i basen
-6 røde egg (5 spillere)
-8 røde egg (4 spillere)
-10 røde egg (3 spillere)
-12 røde egg (2 spillere)
+Collect and possess
+	6 yellow gems (5 players)
+	8 yellow gems (4 players)
+	10 yellow gems (3 players)
+	12 yellow gems (2 players)
 
-Hent gullegget og ta den til basen!
+Collect and possess
+	6 blue gems (5 players)
+	8 blue gems (4 players)
+	10 blue gems (3 players)
+	12 blue gems (2 players)
 
-Hent og ha i basen
-6 gule egg (5 spillere)
-8 gule egg (4 spillere)
-10 gule egg (3 spillere)
-12 gule egg (2 spillere)
+Collect and possess
+	4 gems of each colour (5 players)
+	6 gems of each colour (4 players)
+	8 gems of each colour (3 players)
+	10 gems of each colour (2 players)
 
-Hent og ha i basen
-6 blå egg (5 spillere)
-8 blå egg (4 spillere)
-10 blå egg (3 spillere)
-12 blå egg (2 spillere)
+Collect and have on your hand
+	6 cards (5 players)
+	8 cards (4 players)
+	10 cards (3 players)
+	12 cards (2 players)
 
-Samle og ha på hånden
-6 kort (5 spillere)
-8 kort (4 spillere)
-10 kort (3 spillere)
-12 kort (2 spillere)
+Steal the dragon egg 
+	3 times (5 players)
+	5 times (4 players)
+	7 times (3 players)
+	9 times (2 players)
 
-Stjel gullegget 
-3 ganger (5 spillere)
-5 ganger (4 spillere)
-7 ganger (3 spillere)
-9 ganger (2 spillere)
-
-Få alle 3 brikkene inn i midten av brettet
-
-Hent og ha i basen
-4 egg av hver farge (5 spillere)
-6 egg av hver farge (4 spillere)
-8 egg av hver farge (3 spillere)
-10 egg av hver farge  (2 spillere)
+Collect the dragon egg and have it in your home base
 

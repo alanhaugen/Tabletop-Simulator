@@ -1,22 +1,22 @@
-Stjel et lite egg fra en spiller
+Steal an egg from another player
 
-Blokker en vei! Plasser ut en veiblokk, varer 2 runder
+Black a path! The block lasts two turns
 
-Du får 2 ekstra action points!
+You receive two extra action points!
 
-Du mister 2 egg.
-(Må gjøres umiddelbart. Sett eggene tilbake på brettet)
+You lose two gems
+(Happens immediately. Put the gems back on the board)
 
-Send en brikke tilbake til start! (Om brikken bærer gullegget så blir den igjen)
-(Må gjøres umiddelbart)
+Send one of your dwarves back to strart! (If the dwarf is carrying the dragon egg it will remain on the board)
+(Happens immediately.)
 
-Teleporter til en hvilken som helst base! (Kan ikke brukes av brikken som bærer gullegget)
+Teleport a dwarf to any home base! (Can't be done on the dwarf holding the dragon egg)
 
-Bruk 2 actions til å teleportere til et teleportsted
+Use 2 action points to teleport to a teleportation square
 
-Få et egg fra kartet
+Recieve a gem from the game board
 
-1x Tving den som har gullegget til å slippe den fra seg der han er (Må plukkes opp på nytt)
+(1x) Force the dwarf holding the dragon egg to drop it (The dwarf will be forced to go around and pick it up again)
 
-1x Send gullegget tilbake til midten
+1x Send the dragon egg back to the middle of the board
 
