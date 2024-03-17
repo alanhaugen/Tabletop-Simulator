@@ -11,12 +11,14 @@ Saves/dwarves.json: Scripts/main.lua Scripts/head.json Scripts/ui.json Scripts/b
 	cat Scripts/head.json intermediateScript intermediateUI Scripts/ui.json Scripts/body.json > Saves/dwarves.json 
 	dos2unix Saves/dwarves.json
 	/g/Steam/steamapps/common/Tabletop\\ Simulator/Tabletop\\ Simulator.exe -novid
+	cp Art/dwarves.png Saves
 
 run:
 	/g/Steam/steamapps/common/Tabletop\\ Simulator/Tabletop\\ Simulator.exe -novid
 ifneq (,$(wildcard ./Saves/dwarves.json))
 	cp Saves/dwarves.json Scripts/body.json
 	sed -i '1,226d' Scripts/body.json
+	cp Art/dwarves.png Saves
 endif
 
 clean:
