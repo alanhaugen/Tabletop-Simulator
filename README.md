@@ -127,3 +127,5 @@ by SkinRender is licensed under the Creative Commons - Attribution license. http
 Gold texture from rawpixel.com - Free public domain CC0 photo. https://www.rawpixel.com/image/5960574/free-public-domain-cc0-photo
 
 Fabric texture from pickpik.com - Royalty Free. https://www.pickpik.com/len-fabric-texture-textiles-pattern-background-33158
+
+HDRI Panorama Skybox by macsix - Creative Commons Attribution-Share Alike 3.0 License. https://www.deviantart.com/macsix/art/Another-Sunset-Spherical-HDRI-Panorama-Skybox-416312310
