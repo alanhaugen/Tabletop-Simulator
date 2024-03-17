@@ -32,7 +32,7 @@ You can also contact group members, don't be afraid to ask and communicate.
 
 ## Save changes
 
-To save changes, you can open the chat, click the system tab, and type **save dwarves**. This will save your changes to Saves/dwarves.json
+To save changes, you can open the chat, click the system tab, and type **save dwarves "Dwarves - Gem Chase"**. This will save your changes to Saves/dwarves.json
 
 You may then upload your changes to GitHub.
 
