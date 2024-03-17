@@ -1,0 +1,7 @@
+Custom decks can be any aspect ratio. The game just cuts whatever image you supply into the 10x7 grid.
+
+Different Card Backs For Each Card: 
+Check unique card backs in the importer and use the same template for the back slot.
+
+Guide:
+http://steamcommunity.com/sharedfiles/filedetails/?id=251086884

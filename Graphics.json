@@ -1,16 +1,16 @@
 {
-  "Anisotropic": "true",
+  "Presets": 6,
+  "ResX": 1024,
+  "ResY": 768,
+  "Fullscreen": false,
+  "VSync": false,
+  "FullTextures": true,
+  "PostAA": false,
+  "MSAA": 0,
+  "SSAO": false,
+  "Shadows": 2,
+  "Anisotropic": true,
   "CapFPS": true,
   "CustomCapFPSRate": 0,
-  "FullTextures": "true",
-  "Fullscreen": "true",
-  "MSAA": 8,
-  "PostAA": false,
-  "Presets": 6,
-  "ResX": 1920,
-  "ResY": 1200,
-  "SSAO": "true",
-  "Shadows": 5,
-  "Sharpen": true,
-  "VSync": false
+  "Sharpen": true
 }
