@@ -30,6 +30,12 @@ To run custom commands (such as **ui_panel_main on**) see this document: https:/
 
 You can also contact group members, don't be afraid to ask and communicate.
 
+## Save changes
+
+To save changes, you can open the chat, click the system tab, and type **save dwarves**. This will save your changes to Saves/dwarves.json
+
+You may then upload your changes to GitHub.
+
 ## Loading custom 3D assets
 
 Open the main panel (**ui_panel_main on**), and select Objects and then Components. Select Custom, then Model. Select where you want the object on the virtual table, then press Escape to open an editing screen for the asset. Select the asset files, upload the assets to the cloud, and click Import.
