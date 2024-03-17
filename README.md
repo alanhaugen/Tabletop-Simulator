@@ -117,3 +117,7 @@ by Discover is licensed under the Creative Commons - Attribution license. https:
 
 Dragon Egg
 by SkinRender is licensed under the Creative Commons - Attribution license. https://sketchfab.com/3d-models/dragon-egg-95f90e93a7cc4bce8e813411e0c53483
+
+Gold texture from rawpixel.com - Free public domain CC0 photo. https://www.rawpixel.com/image/5960574/free-public-domain-cc0-photo
+
+Fabric texture from pickpik.com - Royalty Free. https://www.pickpik.com/len-fabric-texture-textiles-pattern-background-33158
