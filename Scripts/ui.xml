@@ -9,9 +9,9 @@
     <Button onClick="creditsbutton">
         <Text fontSize="50">Credits</Text>
     </Button>
-    <Button>
+<!--    <Button>
         <Text fontSize="50">Tutorial</Text>
-    </Button>
+    </Button>-->
 </VerticalLayout>
 
 <VerticalLayout id="creditsmenu" padding="0 0 0 0">
