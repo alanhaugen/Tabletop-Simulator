@@ -17,7 +17,7 @@ run:
 	/g/Steam/steamapps/common/Tabletop\\ Simulator/Tabletop\\ Simulator.exe -novid
 ifneq (,$(wildcard ./Saves/dwarves.json))
 	cp Saves/dwarves.json Scripts/body.json
-	sed -i '1,226d' Scripts/body.json
+	sed -i '1,227d' Scripts/body.json
 	cp Art/dwarves.png Saves
 endif
 

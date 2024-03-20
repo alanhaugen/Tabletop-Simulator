@@ -1,15 +1,40 @@
+GOAL: 
+The game ends when the
+dragon egg has been taken
+to a home base.
+The game can also end if
+a player completes their
+secret mission.
+The game also ends if all
+the gems are taken from
+the game board.
+
+VICTORY: 
+The winner is the player
+with the most gems in their
+home base.
+Alternatively, the player
+who finishes their mission
+is the winner.
+
 For 2 - 6 players.
 Playtime: 25 min.
+
 Get Started
-① Place the gems on the game
+Place the gems on the game
 board where there are gem
-icons. ② Put the dragon egg in
+icons. Put the dragon egg in
 the middle of the board.
+
 Choose a colour!
 Take your dwarf pieces and
 put them in your colour's
-home base.
-Decide on who starts!
+start ship.
+
+Let's go.
+Decide on who starts
+by rolling a die!
+⚄ ⚀ ⚅ ⚀ ⚄ ⚅ ⚄ ⚄ ⚀ ⚄ 
 The game goes in turns
 clock-wise.
 
@@ -17,10 +42,9 @@ Before you begin ...
 Each player takes a mission
 card from the mission card
 pile.
-Remember to shuffle
-the cards!
-Keep your secret mission
-secret ...
+Remember to shuffle the
+cards! Keep your secret
+mission secret ...
 Start your turn
 You receive 4 action points
 at the beginning of each
@@ -29,6 +53,8 @@ To use a card on your hand
 costs 1 action point.
 To move one of your dwarves
 costs 1 action point per space.
+When moving out of your ship,
+the first space is marked ① .
 
 You can only move your
 dwarves in the direction
@@ -69,19 +95,3 @@ score.
 A dwarf carrying the dragon egg
 can only move two spaces per
 turn.
-
-① The game ends when the
-dragon egg has been taken
-to a home base.
-② The game can also end if
-a player completes their
-secret mission.
-③ The game also ends if all
-the gems are taken from
-the game board.
-① The winner is the player
-with the most gems in their
-home base.
-② Alternatively, the player
-who finishes their mission
-is the winner.
