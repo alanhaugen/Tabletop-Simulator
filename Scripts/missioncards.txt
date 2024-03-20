@@ -1,40 +1,46 @@
 Collect and possess
+	11 gems (6 players)
 	13 gems (5 players)
 	15 gems (4 players)
 	17 gems (3 players)
 	19 gems (2 players)
 
 Collect and possess
+	4 red gems (6 players)
 	6 red gems (5 players)
 	8 red gems (4 players)
 	10 red gems (3 players)
 	12 red gems (2 players)
 
 Collect and possess
+	4 yellow gems (6 players)
 	6 yellow gems (5 players)
 	8 yellow gems (4 players)
 	10 yellow gems (3 players)
 	12 yellow gems (2 players)
 
 Collect and possess
+	4 blue gems (6 players)
 	6 blue gems (5 players)
 	8 blue gems (4 players)
 	10 blue gems (3 players)
 	12 blue gems (2 players)
 
 Collect and possess
+	2 gems of each colour (6 players)
 	4 gems of each colour (5 players)
 	6 gems of each colour (4 players)
 	8 gems of each colour (3 players)
 	10 gems of each colour (2 players)
 
-Collect and have on your hand
+Collect and use in total
 	6 cards (5 players)
 	8 cards (4 players)
 	10 cards (3 players)
 	12 cards (2 players)
 
 Steal the dragon egg 
+	2 times (6 players)
 	3 times (5 players)
 	5 times (4 players)
 	7 times (3 players)
