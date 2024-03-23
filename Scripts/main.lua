@@ -9,6 +9,11 @@ function setupBoard(numberOfPlayers_)
     -- Figure out what colours players have
 end
 
+function onPlayerConnect(player)
+    colors = Player.getAvailableColors()
+    player.changeColor(colors[1])
+end
+
 function onLoad()
     print("Dwarves - Gem Chase")
 

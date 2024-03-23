@@ -6,6 +6,11 @@ end
 function playerbutton(numberOfPlayers_)
     hideAll();
     numberOfPlayers = numberOfPlayers
+
+    for _, player in ipairs(Player.getPlayers()) do
+        colors = Player.getAvailableColors()
+        player.changeColor(colors[1])
+    end
 end
 
 function creditsbutton()

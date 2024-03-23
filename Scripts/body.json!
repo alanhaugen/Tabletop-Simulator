@@ -1,250 +1,12 @@
-{
-  "SaveName": "Dwarves - Gem Chase",
-  "EpochTime": 1711224923,
-  "Date": "3/23/2024 9:15:23 PM",
-  "VersionNumber": "v13.2.2",
-  "GameMode": "Dwarves - Gem Chase",
-  "GameType": "Game",
-  "GameComplexity": "Low Complexity",
-  "PlayingTime": [
-    30,
-    120
-  ],
-  "PlayerCounts": [
-    2,
-    6
-  ],
-  "Tags": [
-    "Puzzle Games",
-    "Board Games"
-  ],
-  "Gravity": 0.5,
-  "PlayArea": 0.5,
-  "Table": "Table_Hexagon",
-  "Sky": "Sky_Tunnel",
-  "SkyURL": "http://cloud-3.steamusercontent.com/ugc/2451719500403021042/63624506D8ADC67B7C1F573DC92284BB494A62AE/",
-  "Note": "",
-  "TabStates": {
-    "0": {
-      "title": "Rules",
-      "body": "GOAL: \r\nThe game ends when the\r\ndragon egg has been taken\r\nto a home base.\r\nThe game can also end if\r\na player completes their\r\nsecret mission.\r\nThe game also ends if all\r\nthe gems are taken from\r\nthe game board.\r\n\r\nVICTORY: \r\nThe winner is the player\r\nwith the most gems in their\r\nhome base.\r\nAlternatively, the player\r\nwho finishes their mission\r\nis the winner.\r\n\r\nFor 2 - 6 players.\r\nPlaytime: 25 min.\r\n\r\nGet Started\r\nPlace the gems on the game\r\nboard where there are gem\r\nicons. Put the dragon egg in\r\nthe middle of the board.\r\n\r\nChoose a colour!\r\nTake your dwarf pieces and\r\nput them in your colour's\r\nstart ship.\r\n\r\nLet's go.\r\nDecide on who starts\r\nby rolling a die!\r\n⚄ ⚀ ⚅ ⚀ ⚄ ⚅ ⚄ ⚄ ⚀ ⚄ \r\nThe game goes in turns\r\nclock-wise.\r\n\r\nBefore you begin ...\r\nEach player takes a mission\r\ncard from the mission card\r\npile.\r\nRemember to shuffle the\r\ncards! Keep your secret\r\nmission secret ...\r\nStart your turn\r\nYou receive 4 action points\r\nat the beginning of each\r\nturn.\r\nTo use a card on your hand\r\ncosts 1 action point.\r\nTo move one of your dwarves\r\ncosts 1 action point per space.\r\nWhen moving out of your ship,\r\nthe first space is marked ① .\r\n\r\nYou can only move your\r\ndwarves in the direction\r\nmarked on the map.\r\nIf you move to a place with\r\ngems, you can use 1 action\r\npoint per gem to pick them\r\nup! Put the gems into your\r\nship.\r\nWhen one of your dwarves\r\nreaches a yellow area you\r\ncan pick up a chance card!\r\nBut only one can be picked\r\nup per turn.\r\nPlayers with three gems in\r\ntheir ship can pick up the\r\ndragon egg in the middle of\r\nthe board and carry it with\r\na dwarf by moving a dwarf\r\nto it.\r\n\r\nA dwarf landing on another\r\nteam's dwarf sends the \r\nenemy dwarf back to their\r\nhome base and you can\r\nsteal one gem for 0 action\r\npoints from the other player.\r\nBy landing on a dwarf holding\r\nthe dragon egg, you can choose\r\nto simply send the enemy dwarf\r\nback to their home base, or to\r\nalso take the dragon egg\r\nwith you, carried by your dwarf.\r\nThe dragon egg is worth 10\r\ngems. It has to be in your home\r\nbase to count towards your\r\nscore.\r\nA dwarf carrying the dragon egg\r\ncan only move two spaces per\r\nturn.",
-      "color": "Grey",
-      "visibleColor": {
-        "r": 0.5,
-        "g": 0.5,
-        "b": 0.5
-      },
-      "id": 0
-    },
-    "1": {
-      "title": "Purple",
-      "body": "",
-      "color": "Purple",
-      "visibleColor": {
-        "r": 0.627,
-        "g": 0.125,
-        "b": 0.941
-      },
-      "id": 1
-    },
-    "2": {
-      "title": "Brown",
-      "body": "",
-      "color": "Brown",
-      "visibleColor": {
-        "r": 0.443,
-        "g": 0.231,
-        "b": 0.09
-      },
-      "id": 2
-    },
-    "3": {
-      "title": "Red",
-      "body": "",
-      "color": "Red",
-      "visibleColor": {
-        "r": 0.856,
-        "g": 0.1,
-        "b": 0.094
-      },
-      "id": 3
-    },
-    "4": {
-      "title": "Orange",
-      "body": "",
-      "color": "Orange",
-      "visibleColor": {
-        "r": 0.956,
-        "g": 0.392,
-        "b": 0.113
-      },
-      "id": 4
-    },
-    "5": {
-      "title": "Yellow",
-      "body": "",
-      "color": "Yellow",
-      "visibleColor": {
-        "r": 0.905,
-        "g": 0.898,
-        "b": 0.172
-      },
-      "id": 5
-    },
-    "6": {
-      "title": "Yellow",
-      "body": "",
-      "color": "Yellow",
-      "visibleColor": {
-        "r": 0.905,
-        "g": 0.898,
-        "b": 0.172
-      },
-      "id": 6
-    },
-    "7": {
-      "title": "Green",
-      "body": "",
-      "color": "Green",
-      "visibleColor": {
-        "r": 0.192,
-        "g": 0.701,
-        "b": 0.168
-      },
-      "id": 7
-    },
-    "8": {
-      "title": "Blue",
-      "body": "",
-      "color": "Blue",
-      "visibleColor": {
-        "r": 0.118,
-        "g": 0.53,
-        "b": 1.0
-      },
-      "id": 8
-    },
-    "9": {
-      "title": "Teal",
-      "body": "",
-      "color": "Teal",
-      "visibleColor": {
-        "r": 0.129,
-        "g": 0.694,
-        "b": 0.607
-      },
-      "id": 9
-    },
-    "10": {
-      "title": "Blue",
-      "body": "",
-      "color": "Blue",
-      "visibleColor": {
-        "r": 0.118,
-        "g": 0.53,
-        "b": 1.0
-      },
-      "id": 10
-    },
-    "11": {
-      "title": "Black",
-      "body": "",
-      "color": "Black",
-      "visibleColor": {
-        "r": 0.25,
-        "g": 0.25,
-        "b": 0.25
-      },
-      "id": 11
-    }
-  },
-  "Grid": {
-    "Type": 0,
-    "Lines": false,
-    "Color": {
-      "r": 0.0,
-      "g": 0.0,
-      "b": 0.0
-    },
-    "Opacity": 0.75,
-    "ThickLines": false,
-    "Snapping": false,
-    "Offset": false,
-    "BothSnapping": false,
-    "xSize": 2.0,
-    "ySize": 2.0,
-    "PosOffset": {
-      "x": 0.0,
-      "y": 1.0,
-      "z": 0.0
-    }
-  },
-  "Lighting": {
-    "LightIntensity": 0.54,
-    "LightColor": {
-      "r": 1.0,
-      "g": 0.9804,
-      "b": 0.8902
-    },
-    "AmbientIntensity": 1.3,
-    "AmbientType": 0,
-    "AmbientSkyColor": {
-      "r": 0.5,
-      "g": 0.5,
-      "b": 0.5
-    },
-    "AmbientEquatorColor": {
-      "r": 0.5,
-      "g": 0.5,
-      "b": 0.5
-    },
-    "AmbientGroundColor": {
-      "r": 0.5,
-      "g": 0.5,
-      "b": 0.5
-    },
-    "ReflectionIntensity": 1.0,
-    "LutIndex": 0,
-    "LutContribution": 1.0
-  },
-  "Hands": {
-    "Enable": true,
-    "DisableUnused": false,
-    "Hiding": 0
-  },
-  "ComponentTags": {
-    "labels": []
-  },
-  "Turns": {
-    "Enable": true,
-    "Type": 0,
-    "TurnOrder": [],
-    "Reverse": false,
-    "SkipEmpty": false,
-    "DisableInteractions": false,
-    "PassTurns": true,
-    "TurnColor": ""
-  },
-  "DecalPallet": [],
-  "LuaScript": "\n--https://api.tabletopsimulator.com/\n--https://github.com/alanhaugen/Tabletop-Simulator\n\nnumberOfPlayers = 0 -- will be changed by playermenu, see ui.lua\n\nfunction setupBoard(numberOfPlayers_)\n    -- remove non-player pieces\n    -- First, get the guids for the pieces\n    -- Figure out what colours players have\nend\n\nfunction onPlayerConnect(player)\n    colors = Player.getAvailableColors()\n    player.changeColor(colors[1])\nend\n\nfunction onLoad()\n    print(\"Dwarves - Gem Chase\")\n\n    hideAll();\n\n    count = 0\n    for _, player in ipairs(Player.getPlayers()) do\n        count = count + 1\n    end\n\n    if (count == 1) then\n        mainmenu()\n        setupBoard(numberOfPlayers)\n    end\n\n    -- Indicate what color each player is\n    -- Setup players\n    -- Place player tokens in home base\n    -- Give random mission card\n\n    -- Main loop\n    -- Player i Start\n    -- Detect action points being used\n    -- Card Get\n    -- Detect card use\n    -- Fighting\n    -- Next turn after 4 action points\n    -- Gameover - Player i wins!\nend\n\nfunction onUpdate()\nend\nfunction startbutton()\n    hideAll();\n    self.UI.show(\"playermenu\")\nend\n\nfunction playerbutton(numberOfPlayers_)\n    hideAll();\n    numberOfPlayers = numberOfPlayers\n\n    for _, player in ipairs(Player.getPlayers()) do\n        colors = Player.getAvailableColors()\n        player.changeColor(colors[1])\n    end\nend\n\nfunction creditsbutton()\n    hideAll();\n    self.UI.show(\"creditsmenu\")\nend\n\nfunction mainmenu()\n    hideAll();\n    self.UI.show(\"startmenu\")\nend\n\nfunction hideAll()\n    self.UI.hide(\"playermenu\")\n    self.UI.hide(\"creditsmenu\")\n    self.UI.hide(\"startmenu\")\nend\n\n\n",
-  "LuaScriptState": "",
-  "XmlUI": "\n<!-- https://api.tabletopsimulator.com/ui/introUI/ -->\n\n<VerticalLayout id=\"startmenu\" padding=\"200 200 0 100\">\n    <Image image=\"logo\" />\n<!--    <Button onClick=\"startbutton\"> -->\n    <Button onClick=\"playerbutton(0)\">\n        <Text fontSize=\"50\">Start Game</Text>\n    </Button>\n    <Button onClick=\"creditsbutton\">\n        <Text fontSize=\"50\">Credits</Text>\n    </Button>\n<!--    <Button>\n        <Text fontSize=\"50\">Tutorial</Text>\n    </Button>-->\n</VerticalLayout>\n\n<VerticalLayout id=\"creditsmenu\" padding=\"0 0 0 0\">\n  <VerticalLayout padding=\"100 100 50 25\">\n    <Button><Text interactable=\"false\" fontSize=\"75\">Herman Ibsen Aursø</Text></Button>\n    <Button><Text interactable=\"false\" fontSize=\"75\">Celina Gammelsæter</Text></Button>\n    <Button><Text interactable=\"false\" fontSize=\"75\">Thomas Carlsen</Text></Button>\n    <Button><Text interactable=\"false\" fontSize=\"75\">Nicholas Norgård</Text></Button>\n    <Button><Text interactable=\"false\" fontSize=\"75\">Alan Whitburn Haugen</Text></Button>\n  </VerticalLayout>\n    <Text fontSize=\"75\" color=\"#FFFFFF\">This game was made for Game Design class 2024 at Inland Norway University of Applied Sciences.</Text>\n    <Button onClick=\"mainmenu\">\n        <Text fontSize=\"50\">Back</Text>\n    </Button>\n</VerticalLayout>\n\n<VerticalLayout id=\"playermenu\">\n    <Text fontSize=\"50\" color=\"#FFFFFF\">Select number of players</Text>\n    <Button onClick=\"playerbutton(6)\">\n        <Text fontSize=\"50\">Six Players</Text>\n    </Button>\n    <Button onClick=\"playerbutton(5)\">\n        <Text fontSize=\"50\">Five Players</Text>\n    </Button>\n    <Button onClick=\"playerbutton(4)\">\n        <Text fontSize=\"50\">Four Players</Text>\n    </Button>\n    <Button onClick=\"playerbutton(3)\">\n        <Text fontSize=\"50\">Three Players</Text>\n    </Button>\n    <Button onClick=\"playerbutton(2)\">\n        <Text fontSize=\"50\">Two Players</Text>\n    </Button>\n</VerticalLayout>\n\n",
-  "CustomUIAssets": [
-    {
-      "Type": 0,
-      "Name": "logo",
-      "URL": "https://github.com/alanhaugen/Tabletop-Simulator/blob/main/Art/logo.png?raw=true"
-    }
-  ],
   "ObjectStates": [
     {
       "GUID": "ce4f31",
       "Name": "DeckCustom",
       "Transform": {
-        "posX": -6.02378,
+        "posX": -6.07550526,
         "posY": 1.57852519,
-        "posZ": 6.468214,
-        "rotX": 4.61007676E-06,
+        "posZ": 6.47538853,
+        "rotX": 7.908936E-06,
         "rotY": 180.006775,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -292,7 +54,7 @@
       ],
       "CustomDeck": {
         "11": {
-          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2451719869361628168/B7B936BF833F8D353662AF8779E6E5ABDE10CF9D/",
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2451720054150593833/1A281A080870F68C3A2E0AA639754E98EF6B5921/",
           "BackURL": "http://cloud-3.steamusercontent.com/ugc/2451719500402529472/3549D3C6F971EC12AB61D767099E9040B84BC8FF/",
           "NumWidth": 10,
           "NumHeight": 7,
@@ -306,15 +68,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "fee9cd",
+          "GUID": "0293a3",
           "Name": "Card",
           "Transform": {
-            "posX": -6.02378,
-            "posY": 1.573711,
-            "posZ": 6.468214,
-            "rotX": 8.048236E-06,
-            "rotY": 180.006775,
-            "rotZ": 180.0,
+            "posX": -6.242606,
+            "posY": 1.66134477,
+            "posZ": 5.63559866,
+            "rotX": 0.003393554,
+            "rotY": 180.0,
+            "rotZ": 179.989746,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -344,20 +106,32 @@
           "Sticky": true,
           "Tooltip": true,
           "GridProjection": false,
+          "HideWhenFaceDown": true,
           "Hands": true,
           "CardID": 1100,
           "SidewaysCard": false,
-          "XmlUI": "",
-          "ContainedObjects": []
+          "CustomDeck": {
+            "11": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2451720054150593833/1A281A080870F68C3A2E0AA639754E98EF6B5921/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/2451719500402529472/3549D3C6F971EC12AB61D767099E9040B84BC8FF/",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "XmlUI": ""
         },
         {
-          "GUID": "04896d",
+          "GUID": "609c9c",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -396,13 +170,13 @@
           "ContainedObjects": []
         },
         {
-          "GUID": "1f3b1a",
+          "GUID": "b2b703",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -441,13 +215,13 @@
           "ContainedObjects": []
         },
         {
-          "GUID": "734f34",
+          "GUID": "c4ea33",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -486,13 +260,13 @@
           "ContainedObjects": []
         },
         {
-          "GUID": "50cdde",
+          "GUID": "6d752f",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -531,13 +305,13 @@
           "ContainedObjects": []
         },
         {
-          "GUID": "b6ff75",
+          "GUID": "83550b",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -576,13 +350,13 @@
           "ContainedObjects": []
         },
         {
-          "GUID": "ebec79",
+          "GUID": "8852d1",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -621,13 +395,13 @@
           "ContainedObjects": []
         },
         {
-          "GUID": "3ede68",
+          "GUID": "36fab7",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -666,13 +440,13 @@
           "ContainedObjects": []
         },
         {
-          "GUID": "fa67e4",
+          "GUID": "3c92fa",
           "Name": "Card",
           "Transform": {
             "posX": -6.02378,
-            "posY": 1.573711,
+            "posY": 1.57852519,
             "posZ": 6.468214,
-            "rotX": 8.048236E-06,
+            "rotX": 4.877671E-06,
             "rotY": 180.006775,
             "rotZ": 180.0,
             "scaleX": 1.0,
@@ -1001,7 +775,7 @@
         "posX": 6.287437,
         "posY": 1.62185073,
         "posZ": -6.085586,
-        "rotX": 3.14728049E-06,
+        "rotX": 6.657688E-06,
         "rotY": 180.00679,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -1923,12 +1697,12 @@
       "GUID": "173492",
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 0.008350309,
+        "posX": 0.00835031,
         "posY": 1.55115342,
-        "posZ": 0.0600483343,
-        "rotX": -8.449703E-06,
-        "rotY": -3.368679E-05,
-        "rotZ": -2.76255355E-06,
+        "posZ": 0.06004833,
+        "rotX": -7.093326E-06,
+        "rotY": -2.967352E-05,
+        "rotZ": -2.67356836E-06,
         "scaleX": 2.399999,
         "scaleY": 2.399999,
         "scaleZ": 2.399999
@@ -4949,11 +4723,11 @@
       "Name": "BlockTriangle",
       "Transform": {
         "posX": 7.5335927,
-        "posY": 1.56782949,
+        "posY": 1.5678277,
         "posZ": 7.661715,
-        "rotX": 8.919564E-06,
-        "rotY": 0.000165312522,
-        "rotZ": -9.47663352E-07,
+        "rotX": 1.82451149E-05,
+        "rotY": 0.000165750869,
+        "rotZ": 2.38565758E-06,
         "scaleX": 0.250000417,
         "scaleY": 0.250000417,
         "scaleZ": 0.250000417
@@ -6434,70 +6208,12 @@
         },
         {
           "Position": {
-            "x": 0.823816955,
-            "y": 0.5922433,
-            "z": -0.5292511
+            "x": 0.822897255,
+            "y": 0.5922432,
+            "z": -0.488218367
           }
         }
       ]
-    },
-    {
-      "GUID": "3461c2",
-      "Name": "Card",
-      "Transform": {
-        "posX": -13.6426325,
-        "posY": 2.99097252,
-        "posZ": -7.487545,
-        "rotX": -3.07761923E-07,
-        "rotY": 239.99881,
-        "rotZ": 5.33157447E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": true,
-      "CardID": 1000,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "10": {
-          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2451719869361628168/B7B936BF833F8D353662AF8779E6E5ABDE10CF9D/",
-          "BackURL": "http://cloud-3.steamusercontent.com/ugc/2451719500402529472/3549D3C6F971EC12AB61D767099E9040B84BC8FF/",
-          "NumWidth": 10,
-          "NumHeight": 7,
-          "BackIsHidden": false,
-          "UniqueBack": false,
-          "Type": 0
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
     }
   ]
 }
