@@ -1,4 +1,4 @@
-Steal an egg from another player
+Steal gem from another player's ship
 
 Black a path! The block lasts two turns
 
@@ -7,14 +7,14 @@ You receive two extra action points!
 You lose two gems
 (Happens immediately. Put the gems back on the board)
 
-Send one of your dwarves back to strart! (If the dwarf is carrying the dragon egg it will remain on the board)
+Send one of your dwarves back to start! (If the dwarf is carrying the dragon egg it will remain on the board)
 (Happens immediately.)
 
 Teleport a dwarf to any home base! (Can't be done on the dwarf holding the dragon egg)
 
 Use 2 action points to teleport to a teleportation square
 
-Recieve a gem from the game board
+Receive a gem from the game board
 
 (1x) Force the dwarf holding the dragon egg to drop it (The dwarf will be forced to go around and pick it up again)
 
