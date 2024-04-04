@@ -10,7 +10,7 @@ You lose two gems
 Send one of your dwarves back to start! (If the dwarf is carrying the dragon egg it will remain on the board)
 (Happens immediately.)
 
-Teleport a dwarf to any home base! (Can't be done on the dwarf holding the dragon egg)
+Teleport one of your dwarves to any home base! (Can't be done on the dwarf holding the dragon egg)
 
 Use 2 action points to teleport to a teleportation square
 
