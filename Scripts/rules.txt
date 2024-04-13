@@ -23,7 +23,7 @@ Playtime: 25 min.
 Get Started
 Place the gems on the game
 board where there are gem
-icons. Put the dragon egg in
+icons. Place the dragon egg in
 the middle of the board.
 
 Choose a colour!
@@ -33,7 +33,8 @@ start ship.
 
 Let's go.
 Decide on who starts
-by rolling a die!
+by rolling a die! Player with
+the highest number starts.
 ⚄ ⚀ ⚅ ⚀ ⚄ ⚅ ⚄ ⚄ ⚀ ⚄ 
 The game goes in turns
 clock-wise.
@@ -43,56 +44,55 @@ Each player takes a mission
 card from the mission card
 pile.
 Remember to shuffle the
-cards! Keep your secret
-mission secret ...
+cards! Keep your
+Mission card secret ...
 Start your turn
 You receive 4 action points
 at the beginning of each
 turn.
-To use a card on your hand
-costs 1 action point.
 To move one of your dwarves
 costs 1 action point per space.
+To use a card on your hand
+costs 1 action point.
+To pick up a gem costs 1 action point. 
 When moving out of your ship,
-the first space is marked ① .
+the first space is marked ①.
 
 You can only move your
 dwarves in the direction
 marked on the map.
-If you move to a place with
-gems, you can use 1 action
-point per gem to pick them
-up! Put the gems into your
-ship.
+Store your collected gems into 
+your ship throughout the game. 
 When one of your dwarves
 reaches a yellow area you
 can pick up a chance card!
-But only one can be picked
+Only one can be picked
 up per turn.
 Players with three gems in
 their ship can pick up the
 dragon egg in the middle of
 the board and carry it with
-a dwarf by moving a dwarf
-to it.
+a dwarf.
 
-A dwarf landing on another
-team's dwarf sends the 
-enemy dwarf back to their
+Your dwarves may share a space.
+Put used cards in the discard pile.
+
+Landing next to an enemy dwarf
+sends the enemy dwarf back to their
 home base and you can
 steal one gem for 0 action
-points from the other player.
-By landing on a dwarf holding
-the dragon egg, you can choose
-to simply send the enemy dwarf
-back to their home base, or to
-also take the dragon egg
-with you, carried by your dwarf.
+points from the enemy dwarf.
+Landing on a dwarf holding
+the dragon egg, the enemy dwarf
+gets sent back to their home base, 
+Leaving the egg on the field. 
+You can choose if you want to
+pick up the egg or leave it.
 The dragon egg is worth 10
 gems. It has to be in your home
 base to count towards your
 score.
+
 A dwarf carrying the dragon egg
 can only move two spaces per
 turn.
-
