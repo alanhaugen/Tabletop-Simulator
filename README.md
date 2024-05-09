@@ -10,6 +10,8 @@ The board game made by Group 6 2024 for game design class, Hamar Game School
 
 3242866451
 
+https://steamcommunity.com/sharedfiles/filedetails/?id=3242866451
+
 ## Install Instructions
 
 > Clone this directory into "~/Documents/My Games/"
