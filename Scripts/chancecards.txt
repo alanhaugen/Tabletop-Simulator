@@ -5,7 +5,7 @@ Black a path! The block lasts two turns
 You receive two extra action points!
 
 You lose two gems
-(Happens immediately. Put the gems back on the board)
+(Happens immediately. Put the gems back on the board where there is a gem icon)
 
 Send one of your dwarves back to start! (If the dwarf is carrying the dragon egg the egg will remain on the board)
 (Happens immediately.)
